@@ -93,6 +93,10 @@ OPENEDX_SITES = {
     'bits':{
         'url':'http://any-learn.bits-pilani.ac.in',
         'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
+    },
+    'kmooc':{
+        'url':'https://kmooc.kr',
+        'courseware-selector': ('nav', {'aria-label': 'Course Navigation'}),
     }
 }
 BASE_URL = OPENEDX_SITES['edx']['url']

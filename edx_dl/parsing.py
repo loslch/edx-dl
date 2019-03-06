@@ -420,7 +420,8 @@ def get_page_extractor(url):
     elif (
         url.startswith('https://edge.edx.org') or
         url.startswith('https://lagunita.stanford.edu') or
-        url.startswith('https://www.fun-mooc.fr')
+        url.startswith('https://www.fun-mooc.fr') or
+        url.startswith('https://kmooc.kr')
     ):
         return CurrentEdXPageExtractor()
     else:
